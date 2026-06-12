@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+
+# Keep folder structure if needed
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Reports / generated outputs
+reports/figures/
+outputs/
+logs/
+
+# Node / React
+node_modules/
+dist/
+build/
+.next/
+vite.svg
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
